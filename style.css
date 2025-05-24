@@ -1,0 +1,52 @@
+body {
+    background-color: olivedrab;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    padding: 2em;
+    background-color: #fff; /* optional für Kontrast */
+    border-radius: 0.5em;    /* optional für etwas Styling */
+   box-shadow:
+    10px 50px 4px rgba(0, 0, 0, 0.4),   /* starker rechter Schatten */
+    -95px 30px 280px rgba(0, 0, 0, 0.2);   /* schwacher linker Schatten */
+
+}
+
+form, label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+
+input {
+    width: 10em;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.frame {
+    height: 0.2rem;
+    background-color: gold;
+    width: 100%;
+}
+
+button {
+    max-width: 10rem;
+    display: flex;
+    justify-content: center;
+}
