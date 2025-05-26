@@ -15,10 +15,12 @@ body {
     gap: 1px;
     padding: 2em;
     background-color: #e0cacacc; /* optional für Kontrast */
-    border-radius: 0.5em;    /* optional für etwas Styling */
+    border-radius: 0.5em;    
    box-shadow:
     10px 50px 4px rgba(0, 0, 0, 0.4),   /* starker rechter Schatten */
     -95px 30px 280px rgba(0, 0, 0, 0.2);   /* schwacher linker Schatten */
+
+    width: 360px;
 
 }
 
@@ -40,11 +42,7 @@ input {
     font-size: 1rem;
 }
 
-.radio-group {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-}
+
 
 .frame {
     height: 0.2rem;
@@ -52,10 +50,13 @@ input {
     width: 100%;
 }
 
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
     max-width: 10rem;
-    display: flex;
-    justify-content: center;
 }
 
 
