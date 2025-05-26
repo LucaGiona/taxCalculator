@@ -8,23 +8,22 @@
 </head>
 <body>
     <div class="wrapper">
-    <h2>Calculate</h2>
+    <h2>Calculator</h2>
    <form action="">
     <label for="">price
-        <input type="number" value="" placeholder="device">
-        <button>calc</button>
+        <input type="number" value="" placeholder="amount">
     </label>
 
     <div class="frame"></div>
 
     <label for="">Prozente
-        <input type="number" value="" placeholder="device">
-        <button>calc</button>
+        <input type="number" value="" placeholder="%">
+        
     </label>
 
     <div class="frame"></div>
 
-    <p>berechnen:</p>
+    <p>choose:</p>
     <div class="radio-group">
         <label>
             <input type="radio" name="mode" value="netto">
@@ -35,13 +34,15 @@
             <input type="radio" name="mode" value="brutto">
             Brutto 
         </label>
+        <button class="radio-group">calculate</button>
     </div>
 
     <div class="frame"></div>
 
     <label for="">Ergebnis
-        <input type="number" value="" placeholder="device">
-        <button>calc</button>
+        <input type="number" value="" placeholder="result" readonly>
+        <span>total</span>
+        <button>safe</button>
     </label>
 </form>
 
