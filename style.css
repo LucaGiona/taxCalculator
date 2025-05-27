@@ -17,8 +17,8 @@ body {
     background-color: #e0cacacc; /* optional für Kontrast */
     border-radius: 0.5em;    
    box-shadow:
-    10px 50px 4px rgba(0, 0, 0, 0.4),   /* starker rechter Schatten */
-    -95px 30px 280px rgba(0, 0, 0, 0.2);   /* schwacher linker Schatten */
+    10px 17px 4px rgba(0, 0, 0, 0.4),   /* starker rechter Schatten */
+    -97px 30px 60px rgba(0, 0, 0, 0.2);   /* schwacher linker Schatten */
 
     width: 360px;
 
@@ -40,7 +40,13 @@ input, label {
 input {
     padding: 1rem;
     font-size: 1rem;
+    border-radius: 10px;
 }
+input[type="radio"] {
+  transform: scale(1.7);
+  margin-right: 8px;
+}
+
 
 
 
@@ -56,7 +62,17 @@ input {
 }
 
 button {
-    max-width: 10rem;
+    width: 8rem; 
+    padding: .6rem;
+    text-align: center; letter-spacing: .4px;
+    color: blue;
+    background-color: rgba(251, 214, 8, 0.458);
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+   
+
 }
 
 
@@ -68,4 +84,8 @@ letter-spacing: 2px;
 
 p { 
     letter-spacing: 2px;
+}
+
+.choose {
+    text-align: center;
 }

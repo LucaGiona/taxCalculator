@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brutto/Netto Calculator</title>
+    <title>gross/net  VAT Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="wrapper">
-    <h2>tax Calculator</h2>
+    <h2>VAT Calculator</h2>
    <form action="">
-    <label for="">price
-        <input type="number" value="" placeholder="amount">
+    <label for="">price:
+        <input type="text" value="" placeholder="price">
     </label>
 
     <div class="frame"></div>
 
-    <label for="">Prozente
-        <input type="number" value="" placeholder="%">
+    <label for="">percent:
+        <input type="text" value="" placeholder="%">
         
     </label>
 
@@ -27,23 +27,23 @@
     <div class="radio-group">
         <label class="choose">
             <input type="radio" name="mode" value="netto">
-             Netto → Brutto
+             net → gross
         </label>
 
         <label class="choose">
             <input type="radio" name="mode" value="brutto">
-           Brutto → Netto 
+           gross → net 
         </label>   
      </div>
-        <button class="radio-group">calculate</button>
+        <button>calculate</button>
 
 
     <div class="frame"></div>
 
-    <label for="">Ergebnis
+    <label for="">result:
         <input type="number" value="" placeholder="result" readonly>
-        <span>total</span>
-        <button>safe</button>
+      <br>  <span>optional:</span>
+        <button class="btn-style">safe</button>
     </label>
 </form>
 
